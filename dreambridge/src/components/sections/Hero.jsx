@@ -1,30 +1,22 @@
 import { useState } from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../utils/SectionProps';
+import { SectionProps } from '../Utils/SectionProps';
 import ButtonGroup from '../UI/ButtonGroup';
 import Button from '../UI/Button';
 import Image from '../UI/Image';
 import Modal from '../UI/Modal';
 import { Link } from 'react-router-dom';
 
-const propTypes = {
-  ...SectionProps.types
-}
-
-const defaultProps = {
-  ...SectionProps.defaults
-}
-
-const Hero = ({
+export default function Hero({
   className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
+  topOuterDivider = false,
+  bottomOuterDivider = false,
+  topDivider = false,
+  bottomDivider = false,
+  hasBgColor = false,
+  invertColor = false,
   ...props
-}) => {
+}) {
 
   const [videoModalActive, setVideomodalactive] = useState(false);
 
@@ -67,13 +59,14 @@ const Hero = ({
             <div className="nav-items">
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button className="signin-btn" tag="a" wideMobile >
-                    <Link to={"/login"}> Sign In </Link>
-                    </Button>
+                  {/* FIX DOM NESTING ERROR */}
+                  <Button className="signin-btn" tag={Link} to={"/login"} wideMobile >
+                    Sign In
+                  </Button>
 
-                  <Button tag="a" color="light" wideMobile>
-                  <Link to={"/lawyer/signup"} className="lawyer-signup-btn"> Join our platform as a lawyer </Link>
-                    </Button>
+                  <Button tag={Link} to={"/lawyer/signup"} color="light" wideMobile className="lawyer-signup-btn">
+                    Join our platform as a lawyer
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
@@ -88,8 +81,8 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src='https://cloudfront-us-east-2.images.arcpublishing.com/reuters/L2LSWLHDORINLDIMDESV2EGQIY.jpg'
-                alt="Hero"
+                src='/dreamsbridge-hero-banner.jpg'
+                alt="Hero Img Placeholder"
                 width={850}
                 height={500} />
             </a>
@@ -112,8 +105,3 @@ const Hero = ({
     
   );
 }
-
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
-
-export default Hero;
