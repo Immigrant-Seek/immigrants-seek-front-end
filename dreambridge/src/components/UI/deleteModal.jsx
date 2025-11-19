@@ -1,4 +1,3 @@
-import "../VerticallyCenteredModal.css";
 import { Modal, Button } from "react-bootstrap";
 import React from "react";
 

@@ -1,4 +1,3 @@
-import '../../Chat.css';
 import {Avatar, IconButton} from '@material-ui/core';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 import SendIcon from '@material-ui/icons/Send';

@@ -1,6 +1,5 @@
 import React from "react";
 import {Avatar} from '@material-ui/core';
-import "../../ConversationCard.css";
 
 function ConversationCard (props) {
     const [recentMessage, updateMostReccent] = React.useState("");

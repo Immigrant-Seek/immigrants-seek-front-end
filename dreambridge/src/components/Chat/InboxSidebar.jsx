@@ -1,4 +1,3 @@
-import '../../InboxSidebar.css';
 import React from 'react';
 import DonutLargeIcon from '@material-ui/icons/DonutLarge'
 import {Avatar, IconButton} from '@material-ui/core';

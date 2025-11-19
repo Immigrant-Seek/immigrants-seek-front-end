@@ -115,3 +115,11 @@
 # Helpers
 --------------------------------------------------------------*/
 @import "core/base/helpers";
+
+// import the newly migrated appliation styles
+@import "core/layout/app";
+@import "core/layout/inbox";
+@import "core/layout/inbox-sidebar";
+@import "core/sections/chat";
+@import "core/layout/vertically-centered-modal";
+@import "core/sections/conversation-card";

@@ -1,6 +1,5 @@
 import Sidebar from './InboxSidebar';
 import Chat from './Chat';
-import '../../Inbox.css';
 import Nav from '../Layout/Nav';
 import React from 'react';
 import LawyerNav from '../Layout/NavForLawyers';

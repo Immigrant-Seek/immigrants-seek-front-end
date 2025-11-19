@@ -5,7 +5,6 @@ import NavigationBar from '../Layout/Nav'
 import VerticallyCenteredModal from '../UI/VerticallyCenteredModal';
 import { Container, Form} from 'react-bootstrap';
 import Button from '../UI/Button'
-import wallsBanner from '../../assets/images/wallsBanner.png'
 
 function LawyerProfile(){
     const [modalShow, setModalShow] = useState(false);
@@ -93,7 +92,7 @@ function LawyerProfile(){
         <>
         <NavigationBar/>
         <div className="lawyer-banner">
-            <img src={wallsBanner} className="banner-img"/>
+            <img src="/wallsBanner.png" className="banner-img"/>
         </div>
         <Container className="lawyer-container">
         <button className="lawyer-back-btn" onClick={() => navigate('/Connect-with-a-Lawyer')}><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
