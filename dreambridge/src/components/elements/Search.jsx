@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SearchList from './SearchList';
 
 function Search({ details }) {

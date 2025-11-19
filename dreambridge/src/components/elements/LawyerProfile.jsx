@@ -1,8 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import React, { useState, useEffect, useContext } from 'react';
 import Context from '../../context/Context';
-import NavigationBar from '../../components/elements/Nav'
-import VerticallyCenteredModal from '././VerticallyCenteredModal';
+import NavigationBar from './Nav'
+import VerticallyCenteredModal from './VerticallyCenteredModal';
 import { Container, Form} from 'react-bootstrap';
 import Button from './Button'
 import wallsBanner from '../../assets/images/wallsBanner.png'
