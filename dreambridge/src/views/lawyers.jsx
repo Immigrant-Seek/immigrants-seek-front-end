@@ -1,6 +1,6 @@
-import LawyerPage from "../components/elements/LawyerPage";
+import LawyerPage from "../components/People/LawyerPage";
 import Context from "../context/Context";
-import NavigationBar from "../components/elements/Nav";
+import NavigationBar from "../components/Layout/Nav";
 import { useContext } from "react";
 
 function Lawyers() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import LawyerCard from './LawyerCard';
+import LawyerCard from '../People/LawyerCard';
 
 function SearchList({ filteredPersons }) {
   const filtered = filteredPersons.map(lawyer =>  <LawyerCard key={lawyer.user_id} lawyer={lawyer} />); 

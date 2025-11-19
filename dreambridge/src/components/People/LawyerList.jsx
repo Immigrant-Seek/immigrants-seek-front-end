@@ -1,10 +1,10 @@
-import LawyerCard from './LawyerCard';
+import LawyerCard from '../People/LawyerCard';
 import { useContext } from 'react';
 import Context from '../../context/Context';
 import { Container } from 'react-bootstrap';
-import Search from './Search';
+import Search from '../Search/Search';
 import initialDetails from './initialDetails';
-import MissionStatement from './MissionStatement';
+import MissionStatement from '../UI/MissionStatement';
 
 function LawyerList(){
     let context = useContext(Context);

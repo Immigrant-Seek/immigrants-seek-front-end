@@ -2,7 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import Context from "../../context/Context";
 
-import Button from "./Button";
+import Button from "../UI/Button";
 
 function LawyerCard(props){
     const { client } = props;

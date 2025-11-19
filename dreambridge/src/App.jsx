@@ -3,16 +3,16 @@ import { useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Lawyers from './views/lawyers';
 import Login from './views/login';
-import LawyerProfile from './components/elements/LawyerProfile';
-import SignUp from './components/elements/SignUp';
-import Inbox from './components/elements/Inbox';
+import LawyerProfile from './components/People/LawyerProfile';
+import SignUp from './components/Auth/SignUp';
+import Inbox from './components/Chat/Inbox';
 import UserProfile from './views/userprofile';
 import ScrollReveal from './components/utils/ScrollReveal';
-import Clients from './components/elements/Clients';
-import LawyerSignup from './components/elements/lawyerSignup';
+import Clients from './components/People/Clients';
+import LawyerSignup from './components/Auth/lawyerSignup';
 
 // Layouts
-import LayoutDefault from './components/layouts/LayoutDefault';
+import LayoutDefault from './components/Layout/LayoutDefault';
 
 // Views 
 import Home from './views/Home';

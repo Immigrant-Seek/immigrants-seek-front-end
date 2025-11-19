@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import ClientCard from './ClientCard';
+import ClientCard from '../People/ClientCard';
 
 function ClientsList(props) {
     return (

@@ -1,4 +1,4 @@
-import Hero from "../components/sections/Hero";
+import Hero from "../components/Sections/Hero";
 // import Testimonial from '../components/sections/Testimonial';
 
 const Home = () => {

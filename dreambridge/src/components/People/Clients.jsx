@@ -1,5 +1,5 @@
 import React from 'react';
-import LawyerNav from './NavForLawyers';
+import LawyerNav from '../Layout/NavForLawyers';
 import Context from '../../context/Context';
 import ClientsPage from './ClientsPage';
 function Clients (){

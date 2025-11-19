@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Context from '../../context/Context';
 import React from 'react';
-import ButtonGroup from "./ButtonGroup";
-import Button from "./Button";
+import ButtonGroup from "../UI/ButtonGroup";
+import Button from "../UI/Button";
 function NavigationBar() {
   const context = React.useContext(Context)
 

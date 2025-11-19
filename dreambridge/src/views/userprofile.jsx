@@ -1,6 +1,6 @@
-import ClientProfile from "../components/elements/ClientProfile";
-import Nav from "../components/elements/Nav";
-import LawyerNav from "../components/elements/NavForLawyers";
+import ClientProfile from "../components/People/ClientProfile";
+import Nav from "../components/Layout/Nav";
+import LawyerNav from "../components/Layout/NavForLawyers";
 
 function Clients() {
   return (

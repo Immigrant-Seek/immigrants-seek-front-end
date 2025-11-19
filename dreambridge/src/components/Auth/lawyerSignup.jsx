@@ -1,5 +1,5 @@
 import { Form } from 'react-bootstrap';
-import Button from './Button';
+import Button from '../UI/Button';
 import { ButtonGroup } from 'react-bootstrap';
 import { Link, useNavigate} from 'react-router-dom';
 import Context from '../../context/Context';

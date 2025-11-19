@@ -1,5 +1,5 @@
 import React from 'react';
-import ConversationCard from './ConversationCard';
+import ConversationCard from '../Chat/ConversationCard';
 import Context from '../../context/Context';
 function ConversationsList (props) {
     const {selectedConvoId, updateSelectedConvo, messagesSentCount} = props

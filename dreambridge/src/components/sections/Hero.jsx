@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+import ButtonGroup from '../UI/ButtonGroup';
+import Button from '../UI/Button';
+import Image from '../UI/Image';
+import Modal from '../UI/Modal';
 import { Link } from 'react-router-dom';
 
 const propTypes = {

@@ -1,10 +1,10 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import React, { useState, useEffect, useContext } from 'react';
 import Context from '../../context/Context';
-import NavigationBar from './Nav'
-import VerticallyCenteredModal from './VerticallyCenteredModal';
+import NavigationBar from '../Layout/Nav'
+import VerticallyCenteredModal from '../UI/VerticallyCenteredModal';
 import { Container, Form} from 'react-bootstrap';
-import Button from './Button'
+import Button from '../UI/Button'
 import wallsBanner from '../../assets/images/wallsBanner.png'
 
 function LawyerProfile(){

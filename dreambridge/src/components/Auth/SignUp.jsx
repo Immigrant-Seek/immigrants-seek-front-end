@@ -4,7 +4,7 @@ import Context from '../../context/Context';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ButtonGroup } from 'react-bootstrap';
-import Button from './Button';
+import Button from '../UI/Button';
 
 function SignUp(){
     // state to keep track of the user that signs up, initailzied to object with values of empty strings

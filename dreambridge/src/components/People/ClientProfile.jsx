@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react'
 import Context from '../../context/Context';
 import {Link} from 'react-router-dom';
 import {Avatar, IconButton} from '@material-ui/core';
-import Button from './Button';
+import Button from '../UI/Button';
 
 function ClientProfile(){
   const context = useContext(Context)
