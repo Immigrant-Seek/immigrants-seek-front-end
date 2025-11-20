@@ -415,21 +415,6 @@ h1, h3{
   max-height: 20%;
 }
 
-.testimonial-item-content{
-  text-align: center;
-}
-
-.testimonial-item-content::before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 18px;
-  margin-top: 0%!important;
-  margin-bottom: 16px;
-  background-image: none!important;
-  background-repeat: no-repeat;
-}
-
 .team-img {
   margin-right: 1%;
   margin-left: 1%;
@@ -438,11 +423,6 @@ h1, h3{
 
 .tiles-item-inner {
   padding: 3%!important;
-}
-
-.testimonial-item-footer {
-  display: flex;
-  justify-content:center;
 }
 
 .social-margin {
@@ -493,30 +473,6 @@ h1, h3{
   word-spacing: 3px;
   letter-spacing: 3px;
   line-height: 110%;
-}
-
-.testimonial {
-  background-color: #151719;
-}
-
-.testimonial .tiles-item-inner {
-  background-color: #151719!important;
-}
-
-.testimonial h2 {
-  color:rgb(207, 145, 9)
-}
-
-.testimonial p {
-  color: white
-}
-
-.testimonial-item-content h4 {
-  color:rgb(207, 145, 9)
-}
-
-.testimonial .section-header {
-  padding-bottom: 0;
 }
 
 .client-pfp {
