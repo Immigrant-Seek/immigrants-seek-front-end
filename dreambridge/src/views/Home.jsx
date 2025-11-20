@@ -1,5 +1,4 @@
 import Hero from "../components/Sections/Hero";
-// import Testimonial from '../components/sections/Testimonial';
 
 const Home = () => {
   return (
@@ -25,7 +24,6 @@ const Home = () => {
          />
         </div>
       </div>
-      {/* <Testimonial topDivider /> */}
     </>
   );
 };
